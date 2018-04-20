@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="listItem_horizontalPadding">20dp</dimen>
+    <dimen name="dimen_small">10dp</dimen>
+    <dimen name="header_verticalPadding">15dp</dimen>
+</resources>
