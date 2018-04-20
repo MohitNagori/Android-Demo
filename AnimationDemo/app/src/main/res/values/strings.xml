@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AnimationDemo</string>
+    <string name="animation">Animation</string>
+    <string name="zoom">Zoom</string>
+    <string name="clockwise">Clockwise</string>
+    <string name="fade">Fade</string>
+    <string name="blink">Blink</string>
+    <string name="move">Move</string>
+    <string name="slide">Slide</string>
+    <string name="fragmentSlideIn">Fragment Slide In</string>
+    <string name="fragmentSlideOut">Fragment Slide Out</string>
+    <string name="fragmentLeftFlip">Fragment Left Flip</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragmentRightFlip">Fragment Right Flip</string>
+</resources>

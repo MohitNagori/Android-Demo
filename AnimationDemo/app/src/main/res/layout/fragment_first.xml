@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/animation"
+            android:textSize="@dimen/text_header" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/windmill" />
+
+        <Button
+            android:id="@+id/zoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="40dp"
+            android:text="@string/zoom"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/clockwise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/zoom"
+            android:layout_centerHorizontal="true"
+            android:text="@string/clockwise"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/fade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/clockwise"
+            android:text="@string/fade"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/blink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/zoom"
+            android:text="@string/blink"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/move"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/clockwise"
+            android:layout_alignRight="@+id/clockwise"
+            android:layout_below="@+id/clockwise"
+            android:text="@string/move"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/slide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/fade"
+            android:text="@string/slide"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/fragmentSlideIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/blink"
+            android:text="@string/fragmentSlideIn"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/fragmentSlideOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/move"
+            android:text="@string/fragmentSlideOut"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/fragmentLeftFlip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/fragmentSlideIn"
+            android:text="@string/fragmentLeftFlip"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/fragmentRightFlip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/fragmentSlideOut"
+            android:text="@string/fragmentRightFlip"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/xAxisFlip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/fragmentLeftFlip"
+            android:text="advanced flip"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+</ScrollView>
